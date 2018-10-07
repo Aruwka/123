@@ -1,0 +1,3 @@
+labels = venn.get_labels([range(10), range(5, 15), range(3, 8), range(8, 17), range(10, 20)], fill=['number', 'logic'])
+fig, ax = venn.venn5(labels, names=['Kazakh', 'Russian', 'English', 'Spanish', 'Turkish'])
+fig.show()
